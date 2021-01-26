@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Upload GPX File.</title>
+  </head>
+  <body>
+    <h1>Upload your GPX file.</h1>
+
+    <div>
+      <form method="POST" action="/upload-gpx" enctype="multipart/form-data">
+        <div>
+          <label>Select your gpx file:</label>
+          <input type="file" name="gpx_file" />
+        </div>
+        <div>
+          <input type="submit" name="btn_upload_gpx_file" value="Upload" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
